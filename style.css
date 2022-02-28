@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+#head {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    width: 1280px;
+    /* background: #ccc; */
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .logo {
+    width: 200px;
+    height: 85px;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    border: 1px solid #000;
+}
+
+header #top-menu {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+#top-menu span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+#top-menu a {
+    font-size: 12px;
+}
+
+#gnb {
+    position: absolute;
+    right: 0;
+    top: 79px;
+}
+
+#gnb > ul > li {
+    float: left;
+    margin-left: 30px;
+    /* min-width: 100px; */
+    /* text-align: center; */
+    
+}
+
+#menu #category {
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#category > ul > li {
+    float: left;
+    margin-right: 100px;
+    text-align: center;
+    padding-top: 27px;
+}
+
+#category > ul > .category-all > a {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#category > ul > .category-all {
+    padding-top: 23px;
+}
+
+/* 컨텐츠 영역 */
+#contents {
+    width: 1280px;
+    height: 3431px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.product {
+    width: 800px;
+    float: left;
+    margin-right: 40px;
+    /* background: #ccc; */
+}
+
+.product .main-title {
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 12px;
+    background: #accebc;
+    margin-bottom: 50px;
+}
+
+.product .main-title h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.item-list ul li {
+    width: 240px;
+    height: 335px;
+    margin-right: 40px;
+    float: left;
+}
+
+.item-list ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card {
+    border: 1px solid #000;
+}
+
+.item-list > ul > li {
+    margin-bottom: 50px;
+}
+
+.card .card-img {
+    width: 238px;
+    height: 220px;
+    background: #ccc;
+}
+
+.card .card-info {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.card .card-info .card-info-name {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.card .card-info .card-info-cart {
+    width: 118px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.card .card-info .card-info-cart p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.cart {
+    float: left;
+    width: 440px;
+    height: 1600px;
+    background: #c4c4c4;
+    border: 1px solid #000;
+}
+
+.cart > .cart-title {
+    height: 50px;
+    text-align: center;
+    background: #c4c4c4;
+    padding-top: 12px;
+    border-bottom: 1px solid #000;
+}
+
+.cart > .cart-title > h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cart > .estimateMainWish {
+    height: 1350px;
+    background: #fff;
+}
+
+.cart > .cart-total {
+    height: 197px;
+}
+
+.cart-total > .cart-top-area {
+    text-align: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.cart-total > .cart-total-price {
+    margin-top: 31px;
+    height: 35px;
+
+}
+
+.cart-total > .cart-total-price > h3 {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    float: left;
+}
+
+.cart-total > .cart-total-price > .cart-total-price-won {
+    font-weight: 500;
+    font-size: 24px;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.cart-total > .cart-total-go {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cart-total > .cart-total-go button {
+    padding: 10px;
+    width: 400px;
+}
+
+/* 푸터 */
+footer {
+    background: #4a4a4a;
+    width: 100%;
+}
+
+#footer {
+    width: 1280px;
+    height: 342px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footer-top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-top > a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-top > span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 14px;
+}
+
+.footer-middle{
+    height: 200px;
+    padding: 46px 0;
+}
+
+.footer-left {
+    float: left;
+    margin-right: 279px;
+}
+
+address > ul > li > span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.footer-left > h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.footer-left > address > ul > li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.footer-right {
+    float: left;
+}
+
+.footer-right > h3 > a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-right > h3 {
+    margin-bottom: 13px;
+}
+
+.footer-right > address > ul > li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+}
+
+footer > span {
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 36px;
+}
+
+.footer-bottom > p {
+    font-weight: 500;
+    font-size: 11px;
+}

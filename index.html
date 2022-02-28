@@ -9,41 +9,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="head">
-        <header>
-            <h2 class="logo">
-                <a href="#">
-                    LOGO
-                </a>
-            </h2>
-            <nav id="top-menu">
-                <a href="#">홈</a><span>|</span>
-                <a href="#">로그아웃</a><span>|</span>
-                <a href="#">장바구니</a><span>|</span>
-                <a href="#">주문/배송</a><span>|</span>
-                <a href="#">고객센터</a>
-            </nav>
-            <nav id="gnb">
+    <div class="fixed">
+        <section id="head">
+            <header>
+                <nav id="top-menu">
+                    <a href="#">홈</a><span>|</span>
+                    <a href="#">로그아웃</a><span>|</span>
+                    <a href="#">장바구니</a><span>|</span>
+                    <a href="#">주문/배송</a><span>|</span>
+                    <a href="#">고객센터</a>
+                </nav>
+                <div class="header">
+                    <h2 class="logo">
+                        <a href="#">
+                            LOGO
+                        </a>
+                    </h2>
+                    <nav id="gnb">
+                        <ul>
+                            <li><form action="" class="search">
+                                <input type="text" value="search" class="search-text">
+                                <button type="submit" class="search-btn"><img src="./search.svg" alt=""></button>
+                            </form></li>
+                            <li><a href="#"><img src="./cart.svg" alt="" class="icon"></a></li>
+                            <li><a href="#"><img src="./mypage-icon.svg" alt="" class="icon"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </section>
+        <section id="menu">
+            <nav id="category">
                 <ul>
-                    <li><a href="#"><i>search</i></a></li>
-                    <li><a href="#"><i>cart</i></a></li>
-                    <li><a href="#"><i>mypage</i></a></li>
+                    <li class="category-all"><a href="#"><img   src="toggle-menu.svg" alt=""> 전체 카테고리</a></li>
+                    <li><a href="#">겉 기저귀</a></li>
+                    <li><a href="#">속 기저귀</a></li>
+                    <li><a href="#">위생매트</a></li>
+                    <li><a href="#">시설용품</a></li>
                 </ul>
             </nav>
-        </header>
-    </section>
-    <section id="menu">
-        <nav id="category">
-            <ul>
-                <li class="category-all"><a href="#"><img src="toggle-menu.svg" alt=""> 전체 카테고리</a></li>
-                <li><a href="#">겉 기저귀</a></li>
-                <li><a href="#">속 기저귀</a></li>
-                <li><a href="#">위생매트</a></li>
-                <li><a href="#">시설용품</a></li>
-            </ul>
-        </nav>
-    </section>
-
+        </section>
+    </div>
+    <div class="toptop"></div>
     <section id="contents">
         <div class="product">
             <div class="product-list">
